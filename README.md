@@ -32,8 +32,8 @@ otherwise `every` tests whether passes the provided predicate.
 ### Signature
 
 ```typescript
-function some<A> (a: A | null | undefined, p: (_: A) => boolean): boolean
-function every<A>(a: A | null | undefined, p: (_: A) => boolean): boolean
+const some  = <A>(a: A | null | undefined, p: (_: A) => boolean): boolean
+const every = <A>(a: A | null | undefined, p: (_: A) => boolean): boolean
 ```
 
 ### Usecase1. validate optional values
