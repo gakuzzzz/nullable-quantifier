@@ -1,0 +1,55 @@
+{
+  "name": "nullable-quantifier",
+  "version": "0.1.0",
+  "description": "Quantifiers of nullable types like as Array.prototype every/some",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "tsc": "tsc --noEmit",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gakuzzzz/nullable-quantifier"
+  },
+  "keywords": [
+    "null",
+    "undefined",
+    "some",
+    "every",
+    "option",
+    "optional",
+    "maybe"
+  ],
+  "author": "gakuzzzz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gakuzzzz/nullable-quantifier/issues"
+  },
+  "homepage": "https://github.com/gakuzzzz/nullable-quantifier#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7",
+    "prettier": "2.5.1",
+    "ts-jest": "^27.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.3.0",
+    "typescript": "^4.5.4"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint -c eslint.config.js --ext .ts --fix",
+      "eslint -c eslint.config.js --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "tslint": "^6.1.3"
+  }
+}
