@@ -11,8 +11,8 @@ Under construction. (I'll publish as npm module)
 ```typescript
 import { some, every } from 'nullable-quantifier';
 
-const nullableValue1: string | null = 'Hello World';
-const nullableValue2: string | null = null;
+const nullableValue1: string | null | undefined = 'Hello World';
+const nullableValue2: string | null | undefined = null;
 
 some(nullableValue1, (s) => s.startsWith('Hello')); // true
 some(nullableValue2, (s) => s.startsWith('Hello')); // false
@@ -62,8 +62,8 @@ The aliases `exists` for `some` and `forall` for `every` are defined.
 ```typescript
 import { exists, forall } from 'nullable-quantifier';
 
-const nullableValue1: string | null = 'Hello World';
-const nullableValue2: string | null = null;
+const nullableValue1: string | null | undefined = 'Hello World';
+const nullableValue2: string | null | undefined = null;
 
 exists(nullableValue1, (s) => s.startsWith('Hello')); // true
 exists(nullableValue2, (s) => s.startsWith('Hello')); // false
