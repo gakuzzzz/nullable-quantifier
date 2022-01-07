@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/nullable-quantifier.svg)](https://www.npmjs.com/package/nullable-quantifier)
 [![License](https://img.shields.io/npm/l/nullable-quantifier.svg)](https://www.npmjs.com/package/nullable-quantifier)
+[![CI status](https://github.com/gakuzzzz/nullable-quantifier/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/gakuzzzz/nullable-quantifier/actions)
 
 Existential quantifier and Universal quantifier of nullable types (like as some/every of Array.prototype)
 
@@ -28,11 +29,11 @@ every(nullableValue2, (s) => s.includes('foo')); // true
 
 The `some` function accepts a nullable value and a predicate. 
 If the value is `null` or `undefined`, `some` returns false always, 
-otherwise `some` tests whether passes the provided predicate.
+otherwise `some` tests whether passes the provided predicate. (like as [Array.prototype.some](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some))
 
 The `every` function accepts a nullable value and a predicate. 
 If the value is `null` or `undefined`, `every` returns true always, 
-otherwise `every` tests whether passes the provided predicate.
+otherwise `every` tests whether passes the provided predicate. (like as [Array.prototype.every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every))
 
 ### Signature
 
