@@ -21,7 +21,8 @@
     "every",
     "option",
     "optional",
-    "maybe"
+    "maybe",
+    "quantifier"
   ],
   "author": "gakuzzzz",
   "license": "MIT",

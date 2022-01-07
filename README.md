@@ -1,10 +1,15 @@
-# Nullable Quantifier
+# Nullable Quantifier 
+
+[![npm](https://img.shields.io/npm/v/nullable-quantifier.svg)](https://www.npmjs.com/package/nullable-quantifier)
+[![License](https://img.shields.io/npm/l/nullable-quantifier.svg)](https://www.npmjs.com/package/nullable-quantifier)
 
 Existential quantifier and Universal quantifier of nullable types (like as some/every of Array.prototype)
 
 ## Installation
 
-Under construction. (I'll publish as npm module)
+```
+npm install nullable-quantifier
+```
 
 ## Usage
 
