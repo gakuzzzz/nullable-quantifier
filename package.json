@@ -2,11 +2,12 @@
   "name": "nullable-quantifier",
   "version": "0.1.0",
   "description": "Quantifiers of nullable types like as Array.prototype every/some",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "tsc": "tsc --noEmit",
     "build": "tsc",
+    "prepare": "npm run build",
     "test": "jest"
   },
   "repository": {
