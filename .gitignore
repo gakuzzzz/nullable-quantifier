@@ -15,7 +15,6 @@ internal/
 *.iml
 yarn.lock
 yarn-error.log
-package-lock.json
 out/*
 src/**/*.js
 src/**/*.js.map
