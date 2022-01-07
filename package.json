@@ -1,6 +1,6 @@
 {
   "name": "nullable-quantifier",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quantifiers of nullable types like as Array.prototype every/some",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
