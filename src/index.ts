@@ -1,8 +1,8 @@
 export const some = <A>(a: A | null | undefined, p: (_: A) => boolean): boolean => 
-    a === null || a === undefined ? false : p(a);
+    a !== null && a !== undefined && p(a);
 
 export const every = <A>(a: A | null | undefined, p: (_: A) => boolean): boolean => 
-    a === null || a === undefined ? true : p(a);
+    a === null || a === undefined || p(a);
 
 export const exists = some;
 
